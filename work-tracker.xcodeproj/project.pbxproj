@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		430DE0A82B76C60C00553FB9 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430DE0A72B76C60C00553FB9 /* HeaderView.swift */; };
+		430DE0AA2B76DAD200553FB9 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430DE0A92B76DAD200553FB9 /* ButtonView.swift */; };
 		43953F632B767EAA006F4CF9 /* work_trackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43953F622B767EAA006F4CF9 /* work_trackerApp.swift */; };
 		43953F652B767EAA006F4CF9 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43953F642B767EAA006F4CF9 /* MainView.swift */; };
 		43953F672B767EAA006F4CF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43953F662B767EAA006F4CF9 /* Assets.xcassets */; };
@@ -34,6 +36,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		430DE0A72B76C60C00553FB9 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		430DE0A92B76DAD200553FB9 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		43953F5F2B767EAA006F4CF9 /* work-tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "work-tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		43953F622B767EAA006F4CF9 /* work_trackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = work_trackerApp.swift; sourceTree = "<group>"; };
 		43953F642B767EAA006F4CF9 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -118,6 +122,8 @@
 				43953F8F2B768704006F4CF9 /* AnalyticsView.swift */,
 				43953F912B76872C006F4CF9 /* RegisterView.swift */,
 				43953F932B76877D006F4CF9 /* NewAnalyticView.swift */,
+				430DE0A72B76C60C00553FB9 /* HeaderView.swift */,
+				430DE0A92B76DAD200553FB9 /* ButtonView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -236,6 +242,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				43953F652B767EAA006F4CF9 /* MainView.swift in Sources */,
+				430DE0AA2B76DAD200553FB9 /* ButtonView.swift in Sources */,
+				430DE0A82B76C60C00553FB9 /* HeaderView.swift in Sources */,
 				43953F9A2B768810006F4CF9 /* NewAnalyticViewViewModel.swift in Sources */,
 				43953F8A2B7686CA006F4CF9 /* ProfileView.swift in Sources */,
 				43953F942B76877D006F4CF9 /* NewAnalyticView.swift in Sources */,

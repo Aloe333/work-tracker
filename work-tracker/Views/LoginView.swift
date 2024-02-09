@@ -8,33 +8,39 @@
 import SwiftUI
 
 struct LoginView: View {
+    @State var email = ""
+    @State var password = ""
     var body: some View {
-        VStack {
-            ZStack {
+        NavigationView {
+            VStack {
+                HeaderView(title: "Work Tracker",
+                           background: .indigo
+                )
+                    .padding(.bottom, 75)
+                
+                //login form
+                Form {
+                    TextField("Email Address", text: $email)
+                        .textFieldStyle(DefaultTextFieldStyle())
+                    SecureField("Password", text: $password )
+                        .textFieldStyle(DefaultTextFieldStyle())
+                    //log in button
+                    ButtonView(title: "Log In", background: .indigo ) {
+                        // log in
+                    }
+                    
+                }.frame(height: 250)
+                
+                //New Account
                 VStack {
-                    Circle()
-                        .foregroundColor(.mint)
-                        .frame(width: 500, height: 500)
-                        .position(x: 650, y: 120)
-                    Circle()
-                        .foregroundColor(.mint)
-                        .frame(height: 250)
-                        .offset(x: -100, y: 340)
-                    Circle()
-                        .foregroundColor(.mint)
-                        .frame(height: 500)
-                        .offset(x: 100, y: 300)
-                }
-                Text("Work Tracker")
-                    .font(.system(size: 50))
-                    .foregroundColor(.white)
-                    .bold()
-                    .offset(y: -220)
+                    Text("Don't have an account yet?")
+                    
+                    NavigationLink("Create An Account", destination: RegisterView())
+                        .foregroundColor(.indigo)
+                }.padding(.top, 75)
+                
+                Spacer()
             }
-            .frame(width: UIScreen.main.bounds.width * 3)
-            .offset(y: -100)
-            
-            Spacer()
         }
     }
 }
