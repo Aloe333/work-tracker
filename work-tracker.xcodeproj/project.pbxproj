@@ -33,6 +33,7 @@
 		43953FA22B76885D006F4CF9 /* MainViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43953FA12B76885D006F4CF9 /* MainViewViewModel.swift */; };
 		43953FA42B768882006F4CF9 /* AnalyticsViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43953FA32B768882006F4CF9 /* AnalyticsViewViewModel.swift */; };
 		43953FA62B768899006F4CF9 /* NewStatViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43953FA52B768899006F4CF9 /* NewStatViewViewModel.swift */; };
+		43B322002B77F711009C94A8 /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B321FF2B77F711009C94A8 /* Extentions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +60,7 @@
 		43953FA12B76885D006F4CF9 /* MainViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewViewModel.swift; sourceTree = "<group>"; };
 		43953FA32B768882006F4CF9 /* AnalyticsViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsViewViewModel.swift; sourceTree = "<group>"; };
 		43953FA52B768899006F4CF9 /* NewStatViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewStatViewViewModel.swift; sourceTree = "<group>"; };
+		43B321FF2B77F711009C94A8 /* Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +159,7 @@
 				43953F812B7684B4006F4CF9 /* GoogleService-Info.plist */,
 				43953F662B767EAA006F4CF9 /* Assets.xcassets */,
 				43953F622B767EAA006F4CF9 /* work_trackerApp.swift */,
+				43B321FF2B77F711009C94A8 /* Extentions.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -253,6 +256,7 @@
 				43953F922B76872C006F4CF9 /* RegisterView.swift in Sources */,
 				43953F9E2B768830006F4CF9 /* RegisterViewViewModel.swift in Sources */,
 				43953FA62B768899006F4CF9 /* NewStatViewViewModel.swift in Sources */,
+				43B322002B77F711009C94A8 /* Extentions.swift in Sources */,
 				43953FA22B76885D006F4CF9 /* MainViewViewModel.swift in Sources */,
 				43953F9C2B76881F006F4CF9 /* LoginViewViewModel.swift in Sources */,
 				43953F962B7687CD006F4CF9 /* User.swift in Sources */,
